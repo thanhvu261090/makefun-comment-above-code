@@ -11,6 +11,17 @@ left above fragile production code.
 
 **Character count: 105** (including the leading `# `).
 
+## Why this line works
+
+It lands because it is a confession, not a warning. A warning ("do not touch
+this") tells the reader the code is fragile; this TODO tells the reader the
+*team* gave up — the migration finished in 2021, the cleanup was promised in
+2019, and nobody ever came back for it. That gap between the dated promise
+and the present tense ("This is still here") is the whole joke, and it only
+works as a comment above code: anywhere else it would just be a stale
+reminder, but above fragile production code it is an admission that the
+fragile code won.
+
 ## Why it fits
 
 The line is on subject: it is exactly the sort of note a developer leaves
